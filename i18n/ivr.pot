@@ -14,13 +14,13 @@
 #    along with FreePBX.  If not, see <http://www.gnu.org/licenses/>.
 #
 # FreePBX language template for ivr
-# Copyright (C) 2008, 2009, 2010 Bandwith.com
+# Copyright (C) 2008-2014 Schmoozecom, INC
 #
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2011-09-23 09:52+0000\n"
+"POT-Creation-Date: 2014-08-21 22:11+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -111,6 +111,14 @@ msgid ""
 "prompting the caller to try again"
 msgstr ""
 
+msgid "Append Announcement on Invalid"
+msgstr ""
+
+msgid ""
+"After playing the Invalid Retry Recording the system will replay the main "
+"IVR Announcement"
+msgstr ""
+
 msgid "Invalid Recording"
 msgstr ""
 
@@ -129,13 +137,33 @@ msgstr ""
 msgid "Timeout Retries"
 msgstr ""
 
+msgid ""
+"Number of times to retry when no DTMF is heard and the IVR choice times out."
+msgstr ""
+
 msgid "Timeout Retry Recording"
+msgstr ""
+
+msgid ""
+"Prompt to be played when a timeout occurs, before prompting the caller to "
+"try again"
+msgstr ""
+
+msgid "Append Announcement on Timeout"
+msgstr ""
+
+msgid ""
+"After playing the Timeout Retry Recording the system will replay the main "
+"IVR Announcement"
 msgstr ""
 
 msgid "Timeout Recording"
 msgstr ""
 
 msgid "Timeout Destination"
+msgstr ""
+
+msgid "Destination to send the call to after Timeout Recording is played."
 msgstr ""
 
 msgid "Return to IVR after VM"
@@ -234,7 +262,33 @@ msgstr ""
 msgid "posting notice about deprecated functionality"
 msgstr ""
 
+msgid "Checking for timeout_append_announce.."
+msgstr ""
+
+msgid "Checking for invalid_append_announce.."
+msgstr ""
+
 msgid "IVR"
+msgstr ""
+
+msgid "Add a new IVR"
+msgstr ""
+
+msgid "digits pressed"
+msgstr ""
+
+msgid ""
+"Check this box to have this option return to a parent IVR if it was called "
+"from a parent IVR. If not, it will go to the chosen destination.<br><br>The "
+"return path will be to any IVR that was in the call path prior to this IVR "
+"which could lead to strange results if there was an IVR called in the call "
+"path but not immediately before this"
+msgstr ""
+
+msgid "Delete this entry. Dont forget to click Submit to save changes!"
+msgstr ""
+
+msgid "Add Entry"
 msgstr ""
 
 msgid "Applications"
